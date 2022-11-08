@@ -1,0 +1,63 @@
+
+.caroseltext{
+    margin-bottom: 150px;
+}
+h2, h3, p{
+    color: black;
+}
+.thech_row{
+    margin-bottom: 100px;
+}
+.tech_skill{
+    margin: 50px 10px;
+}
+.myskill{
+    margin: 2px 10px 2px 10px;
+}
+.p_bar{
+    margin: 10px;
+    width: 50%;
+}
+.work_pr{
+    margin:30px 30px;
+}
+.job_content{
+    padding-left: 60px;
+    margin: 10px 15px;
+}
+.work_ex{
+    padding:30px 60px;
+}
+#img_profile{   
+    padding: 10px;
+     border-radius: 25px;  
+      }
+.img_work{ 
+    width:600px; 
+    min-width: 25vw;
+    height: auto;
+    margin-left: 0px; 
+    margin-top: 60px;
+  }
+#img{   
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 10px;
+     border-radius: 25px;  
+      }
+.edu_content{
+    margin-left: 50px;
+}
+
+#footer{
+text-align: center;
+margin-top: auto;
+padding: 10px;
+background-color: rgb(214, 187, 187);
+}
+.skil_icon{
+    padding: 0px 30px 0px 30px;
+    border-style: solid;
+        border-radius: 25px; 
+        border-color: rgb(46, 230, 230);
+}
