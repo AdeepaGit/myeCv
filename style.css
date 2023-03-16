@@ -1,7 +1,5 @@
 
-.caroseltext{
-    margin-bottom: 150px;
-}
+
 h2, h3, p{
     color: black;
 }
@@ -28,25 +26,105 @@ h2, h3, p{
 .work_ex{
     padding:30px 60px;
 }
-#img_profile{   
-    padding: 10px;
-     border-radius: 25px;  
-      }
-.img_work{ 
-    width:600px; 
-    min-width: 25vw;
-    height: auto;
-    margin-left: 0px; 
-    margin-top: 60px;
-  }
-#img{   
-    margin-left: 80px;
-    margin-top: 50px;
-    padding: 10px;
-     border-radius: 25px;  
-      }
-.edu_content{
-    margin-left: 50px;
+
+@media only screen and (max-width: 1000px) {
+    
+    .carouseimg{
+        width: auto;
+      height: 270px !important;
+
+    }
+}
+
+    @media only screen and (min-width: 1000px) {
+    
+        #img_profile{   
+            
+            padding: 10px;
+             border-radius: 25px;  
+              }
+    }
+    @media only screen and (max-width: 1000px) {
+    
+        #img_profile{   
+            width: auto;
+            height: 180px;
+            
+             border-radius: 25px;  
+              }
+    }
+    @media only screen and (max-width: 1000px) {
+    
+        .techlist{
+            
+            width: 100%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-top: var(--bs-gutter-y);
+    
+        }
+    }  
+    
+    @media only screen and (max-width: 1000px) {
+    
+        .caroseltext{ 
+            margin-bottom: 1px;
+          } 
+    }
+    @media only screen and (min-width: 1000px) {
+    
+        .caroseltext{ 
+            margin-bottom: 150px;
+          } 
+    }
+  @media only screen and (max-width: 480px) {
+    
+    .img_work{ 
+        margin-top: 50px;
+        padding: 10px;
+         border-radius: 25px;  
+         width: 100%;
+         max-width: 400px;
+         height: auto;
+      } 
+}
+@media only screen and (min-width: 480px) {
+    
+    .img_work{ 
+        width:600px; 
+        min-width: 25vw;
+        height: auto;
+        margin-left: 0px; 
+        margin-top: 60px;
+      } 
+
+}
+  @media only screen and (max-width: 480px) {
+    
+    #img{   
+       
+        margin-top: 50px;
+        padding: 10px;
+         border-radius: 25px;  
+         width: 100%;
+         max-width: 400px;
+         height: auto;
+          }
+
+}
+@media only screen and (min-width: 480px) {
+    
+    #img{   
+        margin-left: 30px;
+        margin-top: 50px;
+        padding: 10px;
+         border-radius: 25px;  
+         width: 80%;
+        
+         height: auto;
+          }
+
 }
 
 #footer{
